@@ -1,1 +1,1 @@
-# InnoDB和MySIAM的区别
+# InnoDB和MYISAM的区别
