@@ -20,8 +20,8 @@ Yes | Yes | 先按照上述步骤拆分Leaf节点，然后再按照上述步骤�
 
 下图中展示了Leaf和Index Page全满的情况下，插入“95”的变化：
 
-![插入前](../images/index-insert-2.png)
-![插入后](../images/index-insert-3.png)
+![插入前](images/index-insert-2.png)
+![插入后](images/index-insert-3.png)
 
 > 注意
 
@@ -33,8 +33,8 @@ Yes | Yes | 先按照上述步骤拆分Leaf节点，然后再按照上述步骤�
 
 B+树为了减少页拆分操作，提供了旋转（Rotation）功能，即如果Leaf已满，但是左右兄弟页中有空余，则会进行旋转，不会急着做拆分
 
-![插入前](../images/index-insert-4.png)
-![插入后](../images/index-insert-5.png)
+![插入前](images/index-insert-4.png)
+![插入后](images/index-insert-5.png)
 
 > ## 4. 删除
 
@@ -48,10 +48,10 @@ Yes | Yes | 删除Leaf，然后合并Leaf和兄弟节点，再对Index Page进�
 
 > 情况一
 
-![删除前](../images/index-delete-1.png)
-![删除后](../images/index-delete-2.png)
+![删除前](images/index-delete-1.png)
+![删除后](images/index-delete-2.png)
 
 > 情况二和三
 
-![删除前](../images/index-delete-2.png)
-![删除后](../images/index-delete-3.png)
+![删除前](images/index-delete-2.png)
+![删除后](images/index-delete-3.png)
